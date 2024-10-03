@@ -10,7 +10,7 @@
     "install-client": "cd client && npm install",
     "install-server": "cd server && npm install",    
     "install": "concurrently \"npm run install-server\"  \"npm run install-client\"",
-    "start-both": "concurrently \"npm run start:server\" \"npm run start:client\""
+    "start-both": "concurrently \"npm run start:client\" \"npm run start:server\" "
   },
   "dependencies": {
     "react": "^18.2.0",
