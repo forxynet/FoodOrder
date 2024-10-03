@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {    
-    "start:server": "cd server && node app.js",
+    "start:server": "cd server && npm run start",
     "start:client": "cd client && npm run dev",
     "build:client": "cd client && npm run build",
     "install-client": "cd client && npm install",
