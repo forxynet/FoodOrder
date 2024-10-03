@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {    
     "start:server": "cd server && npm run start",
-    "start:client": "cd client && npm run dev",
-    "build:client": "cd client && npm run build",
+    "start:client": "cd client && npm run dev",   
     "install-client": "cd client && npm install",
     "install-server": "cd server && npm install",    
-    "install": "concurrently \"npm run install-client\" \"npm run install-server\"",
-    "start-both": "concurrently \"npm run start:client\" \"npm run start:server\" "
+    "install":    "concurrently \"npm run install-server\" \"npm run install-client\"",
+    "start-both": "concurrently \"npm run start:server\" \"npm run start:client\""
   },
   "dependencies": {
     "react": "^18.2.0",
